@@ -1,0 +1,11 @@
+drop table cals
+
+Create table Cals (
+	id int identity(1,1) primary key,
+	day nvarchar(40),
+	description text
+)
+
+
+
+select * from Cals
